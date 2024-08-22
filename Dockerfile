@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Define the command to run the app
-CMD ["python", "-m", "pywebio", "run", "your_script_name.py", "--host=0.0.0.0", "--port=8080"]
+CMD ["python", "-m", "run", "your_script_name.py", "--host=0.0.0.0", "--port=8080"]
