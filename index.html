@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>Heart Disease Prediction Form</h1>
+    <form action="/" method="post">
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" required><br><br>
+        
+        <label for="Sex">Gender:</label>
+        <select id="Sex" name="Sex" required>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select><br><br>
+        
+        <label for="Chestpaintype">Chest Pain Type:</label>
+        <select id="Chestpaintype" name="Chestpaintype" required>
+            <option value="1">No Pain</option>
+            <option value="2">Fine</option>
+            <option value="3">Manageable</option>
+            <option value="4">Unbearable</option>
+        </select><br><br>
+        
+        <label for="BP">Blood Pressure:</label>
+        <input type="number" id="BP" name="BP" required><br><br>
+        
+        <label for="Cholestrol">Cholesterol:</label>
+        <input type="number" id="Cholestrol" name="Cholestrol" required><br><br>
+        
+        <label>Is FBS (Body Sugar Levels) over 120:</label>
+        <input type="radio" id="FBS_over_120_yes" name="FBS_over_120" value="1" required>
+        <label for="FBS_over_120_yes">Yes</label>
+        <input type="radio" id="FBS_over_120_no" name="FBS_over_120" value="2" required>
+        <label for="FBS_over_120_no">No</label><br><br>
+        
+        <label for="ekg">EKG Levels:</label>
+        <select id="ekg" name="ekg" required>
+            <option value="1">Less than 60 bpm</option>
+            <option value="2">Between 60 bpm to 100 bpm</option>
+            <option value="3">More than 100 bpm</option>
+        </select><br><br>
+        
+        <label for="MaxHR">Max Heart Rate:</label>
+        <input type="number" id="MaxHR" name="MaxHR" required><br><br>
+        
+        <label>Feeling Chest Pain While Exercising:</label>
+        <input type="radio" id="chest_pain_exercise_yes" name="chest_pain_exercise" value="1" required>
+        <label for="chest_pain_exercise_yes">Yes</label>
+        <input type="radio" id="chest_pain_exercise_no" name="chest_pain_exercise" value="2" required>
+        <label for="chest_pain_exercise_no">No</label><br><br>
+        
+        <label for="ST">ST Depression:</label>
+        <textarea id="ST" name="ST" required></textarea><br><br>
+        
+        <label for="Slope">Slope of ST:</label>
+        <select id="Slope" name="Slope" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br><br>
+        
+        <label for="vessels">Number of Fluro Vessels:</label>
+        <select id="vessels" name="vessels" required>
+            <option value="1">0</option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+        </select><br><br>
+        
+        <label for="Thallium">Thallium Levels:</label>
+        <select id="Thallium" name="Thallium" required>
+            <option value="1">3</option>
+            <option value="2">6</option>
+            <option value="3">7</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
