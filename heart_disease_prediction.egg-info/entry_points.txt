@@ -1,2 +1,0 @@
-[console_scripts]
-heart_disease_prediction = your_script_name:main
