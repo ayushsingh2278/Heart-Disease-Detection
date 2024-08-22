@@ -39,7 +39,7 @@ importlib_metadata==8.0.0
 importlib_resources==6.4.0
 inflect==7.3.1
 ipykernel==6.29.5
-ipython==8.26.0
+ipython==8.25.0
 isoduration==20.11.0
 itsdangerous==2.2.0
 jaraco.context==5.3.0
