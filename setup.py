@@ -19,9 +19,9 @@ setup(
         ],
     },
     description="A heart disease prediction model with a web interface using PyWebIO",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/heart_disease_prediction",
+    author="Ayush Singh",
+    author_email="ayushmeeta12@gmail.com",
+    url="https://github.com/ayushsingh2278/Heart-Disease-Detection",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
