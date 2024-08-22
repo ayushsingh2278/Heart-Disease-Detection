@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: heart_disease_prediction
+Version: 0.1
+Summary: A heart disease prediction model with a web interface using PyWebIO
+Home-page: https://github.com/ayushsingh2278/Heart-Disease-Detection
+Author: Ayush Singh
+Author-email: ayushmeeta12@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: pywebio
+Requires-Dist: pickle-mixin
