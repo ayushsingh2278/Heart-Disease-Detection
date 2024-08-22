@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load the model and columns as before
+# Load the model and columns
 with open('randomforest_heart.pkl', 'rb') as f:
     model = pickle.load(f)
 
